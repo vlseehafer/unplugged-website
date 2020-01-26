@@ -142,6 +142,12 @@ p {
   font-size:.875em;
   line-height: 1.285;
 }
+img{
+  width:100%;
+}
+figure{
+  margin: 0;
+}
  
  
 address{
@@ -173,6 +179,13 @@ header .content-wrapper{
   flex-flow:row wrap;
   margin:0;
 
+}
+header figure{
+  width:60%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-flow:row wrap;
 }
 .header-divider{
   background:#3a3a3a;
@@ -242,6 +255,10 @@ footer .copyright{
   display:flex;
   justify-content: center;
   flex-flow:row wrap;
+  background-image:url("../img/hero.jpg");
+  background-size:cover;
+  background-position: center;
+  min-height:500px;
 }
 
 .hero-area h1{
@@ -291,6 +308,10 @@ input[type=button] {
   display:flex;
   justify-content: center;
   flex-flow:row wrap;
+  background-image:url("../img/features.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
 
 }
 .features h2{
@@ -349,6 +370,13 @@ input[type=button] {
 }
 .contact-content p{
   margin 0;
+}
+
+.map{
+  background-image:url("../img/map.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
 }
 
 /*===========FAQ Page=============*/
@@ -561,6 +589,7 @@ h3 {
       width:85%;
     }
   
+    .reviews article figure,
     .reviews article div {
       width: 49%;
     }
@@ -652,6 +681,10 @@ h3 {
     }
     header{
       padding:15px 0;
+    }
+
+    .hero-area{
+      min-height:775px;
     }
     .content-wrapper {
       max-width: 960px;
